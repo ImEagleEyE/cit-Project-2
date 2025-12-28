@@ -216,17 +216,16 @@ nav .nav-item a {
     padding-top: 312px;
 }
 .project-part .left-project-part .overlay1{
-    width: 25%;
+    width: 50%;
     height: 100%;
-    /* background: linear-gradient(to top left, rgba(28, 30, 83), rgba(28, 30, 83,0.42)); */
-    background-color: rgba(28, 30, 83, 0.7);
+    background: linear-gradient(to top left, rgba(28, 30, 83), rgba(28, 30, 83,0.42));
     position: absolute;
     top: 0;
-    left: -50%;
+    right: -50%;
     transition: .6s;
 }
 .project-part .left-project-part:hover .overlay1{
-    left: 0;
+    right: 50%;
     overflow: visible;
 }
 .project-part .left-project-part .overlay1 h2{
@@ -241,47 +240,15 @@ nav .nav-item a {
     font-weight: 500;
     font-family: 'poppins', sans-serif;
     color: white;
+    width: 293px;
+    padding-top: 16px;
+    padding-bottom: 40px;
 }
 .project-part .left-project-part .overlay1 a{
     font-size: 16px;
     font-weight: 500;
     font-family: 'poppins', sans-serif;
     color: #FCD980;
-}
-.project-part .left-project-part .overlay1-2{
-    width: 25%;
-    height: 100%;
-    /* background: linear-gradient(to top left, rgba(28, 30, 83), rgba(28, 30, 83,0.42)); */
-    background-color: rgba(28, 30, 83, 0.7);
-    position: absolute;
-    top: 0;
-    right: -25%;
-    transition: .6s;
-}
-.project-part .left-project-part:hover .overlay1-2{
-    right: 50.01%;
-    overflow: visible;
-}
-.project-part .left-project-part .overlay1-21 span{
-    display: block;
-    transform: translateX(-3%);
-}
-.project-part .left-project-part .overlay1-2 h2{
-    color: white;
-    font-size: 24px;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-    transform: translateX(-3%);
-}
-.project-part .left-project-part .overlay1-2 p{
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'poppins', sans-serif;
-    color: white;
-    transform: translateX(-2%);
-}
-.project-part .left-project-part .overlay1-2 span{
-    transform: translateX(-2%);
 }
 .project-part .right-project-part img{
     width: 405px;
